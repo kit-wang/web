@@ -1,0 +1,111 @@
+*, html {
+	padding: auto;
+}
+
+body { 
+	background-color: #B0C4DEFF; //very close to lightsteelblue
+}
+
+.subject {
+	font-family: Comic Sans MS;
+	font-variant-caps: small-caps;
+	color: #0D2C3D;
+	opacity: 75%;
+	padding: 0px 10px;
+	transition: 0.3s;
+}
+
+.subject:hover {
+	opacity: 100%;
+}
+
+h3, h5 {
+	font-family: sans-serif;
+	font-variant-caps: all-small-caps;
+	padding: 0px 10px;
+	font-weight: normal;
+}
+
+hr {
+	height: 1px;
+	background-color: white;
+	width: 80%;
+}
+
+ul {
+	padding: 10px 30px;
+	font-family: Sans-serif;
+}
+
+a {
+	font-family: Comic Sans MS;
+	text-align: center;
+	display: block;
+}
+
+p {
+	font-family: sans-serif;
+	color: #0D2C3D;
+	text-align: center;
+	margin-left: 15%;
+	margin-right: 15%;
+	display: block;
+}
+
+img {
+	width: 40%;
+	display: block;
+ 	margin-left: auto;
+  	margin-right: auto;
+  	margin-top: 25px;
+  	box-shadow: 2px 2px 5px black;
+}
+
+.sub-heading h2 {
+	text-align: center;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+.sub-heading
+{
+	position: relative;
+	margin-bottom:30px;
+}
+
+.sub-heading:before
+{
+	content:"";
+	position: absolute;
+	top:100%;
+	left:50%;
+	margin-left:-3%;
+	width:6%;
+	height:3.5px;
+	background-color: #0D2C3D;
+	z-index: 1;
+	transition: all 0.29s ease;
+	-webkit-transition: all 0.29s ease;
+	-moz-transition: all 0.29s ease;
+	-o-transition: all 0.29s ease;
+	-ms-transition: all 0.29s ease;
+}
+
+.sub-heading:hover:before
+{
+	width:24%;
+	margin-left: -12%;
+}
+
+.sub-heading:after
+{
+	content:"";
+	position: absolute;
+	top: 100%;
+	left: 50%;
+	margin-left: -12%;
+	width: 24%;
+	height:3px;
+	background: white;
+}
+
