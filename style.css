@@ -1,0 +1,293 @@
+* {
+	/*border: 1px solid black;*/
+}
+
+body {
+	background-color: #dbd6d0;
+	margin: 0px;
+}
+
+header
+{
+	height: 80px;
+	line-height: 20px;
+	position: fixed;
+	z-index:1;
+	width: 100%;
+}
+
+.logo {
+	color: #3e3731; /*change later*/
+	font-size: 18px;
+	font-family: sans-serif;
+	font-variant-caps: small-caps;
+	padding-top: 30px;
+	padding-left: 50px;
+	text-decoration: none;
+	display: inline-block;
+}
+
+.secondary
+{
+	margin-top: 0px;
+	background-color: #8b998c;
+	box-shadow: 0px 0px 17px 0px;
+	transition: all 0.35s ease-in;
+}
+
+
+header nav {
+	float: right;
+	padding-right: 40px;
+}
+
+#menu li {
+	list-style: none;
+	display: inline-block; /*from original css*/
+}
+
+#menu li a {
+	text-decoration: none;
+	position: relative;
+	color: #3e3731; /*change later*/
+	font-size: 18px;
+	font-variant-caps: small-caps;
+	font-family: sans-serif;
+	display: block;
+	overflow: hidden;
+	padding: 10px 20px;
+}
+
+#menu li a:before {
+	content: '';
+	width: 30px;
+	position: absolute;
+	border-bottom: 3px solid #232224;
+	bottom: 0;
+	right: 350px;
+	transition: 0.7s all;
+}
+
+#menu li a:hover:before {
+	right: 0;
+}
+
+#menu li a:hover {
+	color: #232224;
+	transition: 0.7s all;
+}
+
+.polyglot-def {
+	padding-top: 120px;
+	padding-left: 45px;
+	/*border: 1px solid black;*/
+}
+
+.polyglot-def h1 {
+	font-size: 110px;
+	color: #51483f;
+	margin-bottom: 0px;
+}
+
+.polyglot-def p {
+	margin-top: 0px;
+	color: #51483f;
+	font-size: 20px;
+}
+
+.intro {
+	color: #763730;
+	margin-left: 40px;
+	margin-top: 200px;
+	margin-right: 30%;
+}
+
+.intro p {
+	font-family: "Courier New";
+	font-weight: bold;
+	font-size: 18px;
+}
+
+.quote {
+	width: 100%;
+	margin-top: 70px;
+	margin-bottom: 70px;
+	background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.6)),url(images/succulent.jpg);
+	background-position: center;
+	background-attachment: fixed;
+}
+
+.blockquote {
+	padding: 25px;
+	margin-left: 20%;
+	margin-right: 20%;
+	margin-top: 25px;
+	margin-bottom: 25px;
+}
+
+.blockquote::before {
+	content: "\201c";
+	font-size: 80px;
+	color: #8b998c;
+	display: block;
+	margin-bottom: -40px;
+}
+
+.blockquote-txt {
+	text-align: center;
+	display: block;
+	font-family: georgia, serif;
+	font-style: italic;
+	font-size: 20px;
+	margin:0; 
+	color: #8b998c;
+}
+
+.blockquote-txt:not(:last-child) {
+	margin-bottom: 1em;
+}
+
+cite {
+	font-weight: bold;
+	font-style:normal;
+	text-align: right;
+	display: block;
+	font-family: georgia, serif;
+	color: #8b998c;
+}
+
+cite::before {
+	content: "\2014\0020";
+
+}
+
+#italian-intro {
+	padding-top:20%;
+	padding-bottom: 20%;
+	background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.6)),url(images/firenze.jpg);
+	background-position: center;
+	background-attachment: fixed;
+}
+
+#italian-intro h1 {
+	text-align: center;
+	display: block;
+	font-family: sans-serif;
+	font-variant-caps: small-caps;
+	color: #dbd6d0;
+}
+
+.logo1 {
+	color: #dbd6d0; /*change later*/
+	font-size: 18px;
+	font-variant-caps: small-caps;
+	font-family: sans-serif;
+	padding-top: 30px;
+	padding-left: 50px;
+	text-decoration: none;
+	display: inline-block;
+}
+
+header nav {
+	float: right;
+	padding-right: 40px;
+}
+
+#menu1 li {
+	list-style: none;
+	display: inline-block; /*from original css*/
+}
+
+#menu1 li a {
+	text-decoration: none;
+	position: relative;
+	color: #dbd6d0; /*change later*/
+	font-size: 18px;
+	font-variant-caps: small-caps;
+	font-family: sans-serif;
+	display: block;
+	overflow: hidden;
+	padding: 10px 20px;
+}
+
+#menu1 li a:before {
+	content: '';
+	width: 30px;
+	position: absolute;
+	border-bottom: 3px solid white;
+	bottom: 0;
+	right: 350px;
+	transition: 0.7s all;
+}
+
+#menu1 li a:hover:before {
+	right: 0;
+}
+
+#menu1 li a:hover {
+	color: white;
+	transition: 0.7s all;
+}
+
+.italian-content p {
+	font-family: Georgia;
+	font-size: 15px;
+	margin-left: 90px;
+	margin-top: 70px;
+	color: #51483f;
+	line-height: 28px;
+}
+
+.italian-content img {
+	width: 30%;
+	margin-top: 70px;
+	margin-right: 90px;
+	margin-left: 20px;
+	margin-bottom: 70px;
+	box-shadow: 10px 10px 5px grey;
+	border: 5mm double #3C4C3F;
+}
+
+.italian-content {
+	display: flex;
+}
+
+#korean-intro {
+	padding-top:20%;
+	padding-bottom: 20%;
+	background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.6)),url(https://tripandtravelblog.com/wp-content/uploads/2019/07/seoul-skyline-P32PQSP.jpg);
+	background-position: center;
+	background-attachment: fixed;
+}
+
+#korean-intro h1 {
+	text-align: center;
+	display: block;
+	font-family: sans-serif;
+	font-variant-caps: small-caps;
+	color: #dbd6d0;
+}
+
+#russian-intro {
+	padding-top:20%;
+	padding-bottom: 20%;
+	background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.6)),url(https://images2.alphacoders.com/104/1040476.jpg);
+	background-position: center;
+	background-attachment: fixed;
+}
+
+#russian-intro h1 , #canto-intro h1 {
+	text-align: center;
+	display: block;
+	font-family: sans-serif;
+	font-variant-caps: small-caps;
+	color: #dbd6d0;
+}
+
+#canto-intro {
+	padding-top:20%;
+	padding-bottom: 20%;
+	background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.6)),url(https://sofitel.accor.com/destinations/imagerie/guangzhou_panorama_photo_1-c2db_1400x788.jpg);
+	background-position: center;
+	background-attachment: fixed;
+}

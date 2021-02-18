@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Italian</title>
+	<link href="style.css" rel="stylesheet" type="text/css">
+	<link rel="icon" href="../images/kermitNTea.jpg" type="image/jpg">
+</head>
+<body>
+	<div id="nav-bar">
+		<header>
+			<a href="site.html" class="logo1">Polyglot Chronicles</a>
+			<nav>
+				<ul id="menu1">
+					<li><a href="italian.html">Italian</a></li>
+					<li><a href="korean.html">Korean</a></li>
+					<li><a href="russian.html">Russian</a></li>
+					<li><a href="canto.html">Cantonese</a></li>
+				</ul>
+			</nav>
+		</header>
+	</div>
+
+	<div id="italian-intro">
+		<h1>Italian</h1>
+	</div>
+	<div class="italian-content">
+		<p>Being a prominent Romance language, Italian is largely derived from Vulgar Latin, a linkage that is made evident with the similarities in their verb conjugations (and various words in Italian resemble those in latin; what a surprise!). In terms of grammar, Italian is a relatively straightforward language, with consistent rules, though exceptions to general rules are occasional.
+		<br>
+		<br>
+		For instance, despite common classification rules, the word "hand" in Italian, or "mano," is a feminine noun that utilizes a definite article of "la".
+		<br>
+		<br>
+		It is also intriguing to note that Italian is an inflected language, meaning that a word's definition could be changed by altering their endings. When contrasted with English pronounciation, Italian pronounciation and spelling can be very easy to pick up: words are spelled like they sound, and letters are pronounced the way you expect them to be pronounced!
+		<br>
+		<br>
+		Moreover, Italian consists of a number of different dialects, as seen in the differently colored regions in the map. The language is also known for its hilarious and unique idioms, some of which you can check out <a href="https://www.babbel.com/en/magazine/11-best-italian-expressions-and-sayings">here</a>
+		</p>
+		<img src="images/dialetti.png" alt="Italy's Many Dialects" title="The many dialects of Italian">
+	</div>
+	<script type="text/javascript" src="https://code.jquery.com/jquery-3.5.1.js">
+	</script>
+	<script>
+		$(window).scroll(function(){
+		var top = $(window).scrollTop();
+		if (top>=60){
+		 	$("header").addClass('secondary');
+		 }
+		 else
+		 	if ($("header").hasClass('secondary')){
+		 		$("header").removeClass('secondary')
+		 	}
+		})
+	</script>
+</body>
+</html>
