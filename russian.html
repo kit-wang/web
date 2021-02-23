@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Russian</title>
+	<link href="style.css" rel="stylesheet" type="text/css">
+	<link rel="icon" href="../images/kermitNTea.jpg" type="image/jpg">
+</head>
+<body>
+	<div id="nav-bar">
+		<header>
+			<a href="site.html" class="logo1">Polyglot Chronicles</a>
+			<nav>
+				<ul id="menu1">
+					<li><a href="italian.html">Italian</a></li>
+					<li><a href="korean.html">Korean</a></li>
+					<li class="current-page"><a href="russian.html">Russian</a></li>
+					<li><a href="canto.html">Cantonese</a></li>
+				</ul>
+			</nav>
+		</header>
+	</div>
+
+	<div id="russian-intro">
+		<h1>Russian</h1>
+	</div>
+	<div class="italian-content">
+		<p>The Russian language is full of consecutive consonants, and utilizes the Cyrillic alphabet. Compared to the other languages discussed here, Russian has a complex set of grammar rules, and exceptions are numerous. Even though a typical sentence is organized in a subject-verb-object structure, its plethora of grammatical guidelines allows for a very flexible word order, which may be surprising. The language also has six different grammatical cases, forcing new learners to navigate through a challenging alphabet AND a complex grammatical system.
+		<br>
+		<br>
+		One notable characteristic of Russian is its lack of articles, be it definite or indefinite. Despite this, there are still numerous ways to say "the" by using pronouns as defining indicators. Similar to Korean, Russian is also very phonetic (much more than English), mainly due to the fact that it only shares an alphabet (sort of) with a few highly related languages. Personally, nailing the exact pronunciation of words and letters in Russian has posed a difficult challenge. 
+		<br>
+		<br>
+		Though the Russian cursive writing system may appear seemingly impossible to decipher at first sight, it is very commonly used by people (and it's such a beautiful writing system as well). If you are interested in learning to read Cyrillic, start <a href="https://www.babbel.com/russian-alphabet">here</a>.
+		</p>
+		<img src="https://qph.fs.quoracdn.net/main-qimg-f1a79eb772ea30a099c67edd800a4c8f" title="An example of Russian cursive!">
+	</div>
+	<script type="text/javascript" src="https://code.jquery.com/jquery-3.5.1.js">
+	</script>
+	<script>
+		$(window).scroll(function(){
+		var top = $(window).scrollTop();
+		if (top>=60){
+		 	$("header").addClass('secondary');
+		 }
+		 else
+		 	if ($("header").hasClass('secondary')){
+		 		$("header").removeClass('secondary')
+		 	}
+		})
+	</script>
+</body>
+</html>
